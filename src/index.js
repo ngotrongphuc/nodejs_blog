@@ -31,7 +31,7 @@ app.use(methodOverride('_method'));
 // Template engine
 app.engine(
     'hbs',
-    handlebars({
+    handlebars.engine({
         extname: '.hbs',
         helpers: {
             sum: (a, b) => a + b,

@@ -1,5 +1,15 @@
 @import 'variables';
 
+html,
+body {
+    min-height: 100%;
+}
+
+.body {
+    height: 100vh;
+    padding-top: 54px;
+}
+
 .card-course-item {
     margin-top: 16px;
 }
